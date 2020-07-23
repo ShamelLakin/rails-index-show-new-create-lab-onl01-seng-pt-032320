@@ -1,6 +1,6 @@
 class CouponsController < ApplicationController
   def new
-    @Coupon = Coupon.all
+    @coupon = Coupon.all
   end
 
   def create 
