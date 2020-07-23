@@ -1,5 +1,5 @@
 class CouponsController < ApplicationController
-  def index
+  def new
     @Coupon = Coupon.all
   end
   
