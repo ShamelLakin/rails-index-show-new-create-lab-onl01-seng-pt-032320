@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'coupon/index'
 
-  resources :coupon_code, :store 
+  resources :coupons 
 
   root 'coupon#index'
 
